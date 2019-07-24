@@ -1,5 +1,8 @@
 package part1_recap
 
+import scala.concurrent.Future
+import scala.util.{Failure, Success}
+
 /**
   * Created by Tomohiro on 24 juillet 2019.
   */

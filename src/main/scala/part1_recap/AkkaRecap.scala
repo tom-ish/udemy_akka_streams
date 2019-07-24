@@ -7,6 +7,8 @@ package part1_recap
 import akka.actor.SupervisorStrategy.{Restart, Stop}
 import akka.actor.{Actor, ActorLogging, ActorSystem, OneForOneStrategy, PoisonPill, Props, Stash, SupervisorStrategy}
 import akka.util.Timeout
+import scala.language.postfixOps
+
 
 object AkkaRecap extends App {
 
