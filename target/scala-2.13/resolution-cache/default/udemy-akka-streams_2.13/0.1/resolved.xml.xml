@@ -4,7 +4,7 @@
 		module="udemy-akka-streams_2.13"
 		revision="0.1"
 		status="integration"
-		publication="20190724184236"
+		publication="20190724184957"
 	>
 		<description>
 		udemy-akka-streams
@@ -32,5 +32,9 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.13.0" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.13.0" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream_2.13" rev="2.5.23" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream-testkit_2.13" rev="2.5.23" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-testkit_2.13" rev="2.5.23" conf="compile->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.13" rev="3.0.8" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
