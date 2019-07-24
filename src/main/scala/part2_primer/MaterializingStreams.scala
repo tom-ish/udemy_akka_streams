@@ -85,7 +85,7 @@ object MaterializingStreams extends App {
   val wcSink = Sink.fold[Int, String](0)((count, content) => count + content.split(" ").length)
 
 
-  
+
   val wordCountSink =
     Sink.fold[Int, String](0)((currentWords, newSentence) => currentWords + newSentence.split(" ").length)
   val g1 = sentencesSource.toMat(wordCountSink)(Keep.right).run()
