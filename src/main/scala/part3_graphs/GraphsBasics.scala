@@ -24,11 +24,11 @@ object GraphsBasics extends App {
     GraphDSL.create() { implicit builder : GraphDSL.Builder[NotUsed] => // builder = MUTABLE data structure
       import GraphDSL.Implicits._ // brings some nice operators into scope
 
-      // step 2 - add the necessary components of this graph
+      // step 2 - add the necessary shapes for this graph
       val broadcast = builder.add(Broadcast[Int](2)) // fan-out operator
       val zip = builder.add(Zip[Int, Int]) // fan-in operator
 
-      // step 3 - tying up the components
+      // step 3 - tying up the shapes
       input ~> broadcast
 
       broadcast.out(0) ~> incrementer ~> zip.in0
@@ -91,7 +91,7 @@ object GraphsBasics extends App {
 
       fastSource ~> merge ~> balance ~> sink_1
       slowSource ~> merge;   balance ~> sink_2
-      
+
 
       ClosedShape
     }
