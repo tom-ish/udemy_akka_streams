@@ -4,7 +4,7 @@
 		module="udemy-akka-streams$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190724185003"
+		publication="20190725152028"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

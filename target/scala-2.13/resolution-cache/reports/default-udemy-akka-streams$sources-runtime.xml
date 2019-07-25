@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20190724185003"/>
+		date="20190725152028"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-stream-testkit_2.13">
 			<revision name="2.5.23" status="release" pubdate="20190611002810" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://akka.io/" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.23" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
@@ -15,7 +15,7 @@
 				<metadata-artifact status="no" details="" size="3647" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.13/ivy-2.5.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.13/2.5.23/akka-stream-testkit_2.13-2.5.23.pom"/>
 				<caller organisation="default" name="udemy-akka-streams$sources" conf="compile, runtime" rev="2.5.23" rev-constraint-default="2.5.23" rev-constraint-dynamic="2.5.23" callerrev="0.1" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.23"/>
 				<artifacts>
-					<artifact name="akka-stream-testkit_2.13" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="12602" time="385" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.13/srcs/akka-stream-testkit_2.13-2.5.23-sources.jar">
+					<artifact name="akka-stream-testkit_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="12602" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-stream-testkit_2.13/srcs/akka-stream-testkit_2.13-2.5.23-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream-testkit_2.13/2.5.23/akka-stream-testkit_2.13-2.5.23-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -39,7 +39,7 @@
 				<metadata-artifact status="no" details="" size="3697" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-stream_2.13/ivy-2.5.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.23/akka-stream_2.13-2.5.23.pom"/>
 				<caller organisation="default" name="udemy-akka-streams$sources" conf="compile, runtime" rev="2.5.23" rev-constraint-default="2.5.23" rev-constraint-dynamic="2.5.23" callerrev="0.1" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.23"/>
 				<artifacts>
-					<artifact name="akka-stream_2.13" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="522571" time="417" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-stream_2.13/srcs/akka-stream_2.13-2.5.23-sources.jar">
+					<artifact name="akka-stream_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="522571" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-stream_2.13/srcs/akka-stream_2.13-2.5.23-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.5.23/akka-stream_2.13-2.5.23-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -51,7 +51,7 @@
 				<metadata-artifact status="no" details="" size="3716" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe/ssl-config-core_2.13/ivy-0.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.0/ssl-config-core_2.13-0.4.0.pom"/>
 				<caller organisation="default" name="udemy-akka-streams$sources" conf="compile, runtime" rev="0.4.0" rev-constraint-default="0.4.0" rev-constraint-dynamic="0.4.0" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="ssl-config-core_2.13" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="53005" time="256" location="/Users/Tomohiro/.ivy2/cache/com.typesafe/ssl-config-core_2.13/srcs/ssl-config-core_2.13-0.4.0-sources.jar">
+					<artifact name="ssl-config-core_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="53005" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe/ssl-config-core_2.13/srcs/ssl-config-core_2.13-0.4.0-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.0/ssl-config-core_2.13-0.4.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -63,7 +63,7 @@
 				<metadata-artifact status="no" details="" size="2927" time="0" location="/Users/Tomohiro/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/ivy-1.1.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.pom"/>
 				<caller organisation="default" name="udemy-akka-streams$sources" conf="compile, runtime" rev="1.1.2" rev-constraint-default="1.1.2" rev-constraint-dynamic="1.1.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="scala-parser-combinators_2.13" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="48190" time="338" location="/Users/Tomohiro/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/srcs/scala-parser-combinators_2.13-1.1.2-sources.jar">
+					<artifact name="scala-parser-combinators_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="48190" time="0" location="/Users/Tomohiro/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.13/srcs/scala-parser-combinators_2.13-1.1.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -75,7 +75,7 @@
 				<metadata-artifact status="no" details="" size="2523" time="0" location="/Users/Tomohiro/.ivy2/cache/org.reactivestreams/reactive-streams/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2.pom"/>
 				<caller organisation="default" name="udemy-akka-streams$sources" conf="compile, runtime" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
 				<artifacts>
-					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3997" time="395" location="/Users/Tomohiro/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
+					<artifact name="reactive-streams" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3997" time="0" location="/Users/Tomohiro/.ivy2/cache/org.reactivestreams/reactive-streams/srcs/reactive-streams-1.0.2-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.2/reactive-streams-1.0.2-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -123,7 +123,7 @@
 				<metadata-artifact status="no" details="" size="2968" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.13/ivy-2.5.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.23/akka-protobuf_2.13-2.5.23.pom"/>
 				<caller organisation="default" name="udemy-akka-streams$sources" conf="compile, runtime" rev="2.5.23" rev-constraint-default="2.5.23" rev-constraint-dynamic="2.5.23" callerrev="0.1" extra-info.apiURL="https://doc.akka.io/api/akka/2.5.23"/>
 				<artifacts>
-					<artifact name="akka-protobuf_2.13" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="277039" time="408" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.13/srcs/akka-protobuf_2.13-2.5.23-sources.jar">
+					<artifact name="akka-protobuf_2.13" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="277039" time="0" location="/Users/Tomohiro/.ivy2/cache/com.typesafe.akka/akka-protobuf_2.13/srcs/akka-protobuf_2.13-2.5.23-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf_2.13/2.5.23/akka-protobuf_2.13-2.5.23-sources.jar"/>
 					</artifact>
 				</artifacts>
