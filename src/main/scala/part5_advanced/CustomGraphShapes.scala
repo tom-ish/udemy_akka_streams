@@ -142,7 +142,7 @@ object CustomGraphShapes extends App{
   )
 
   genericBalanceGraph.run()
-  
+
 
 
 }
