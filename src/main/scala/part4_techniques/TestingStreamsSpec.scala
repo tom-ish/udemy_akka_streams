@@ -9,6 +9,7 @@ import org.scalatest.{BeforeAndAfterAll, WordSpecLike}
 
 import scala.concurrent.Await
 import scala.util.{Failure, Success}
+import scala.concurrent.duration._
 
 /**
   * Created by Tomohiro on 26 juillet 2019.

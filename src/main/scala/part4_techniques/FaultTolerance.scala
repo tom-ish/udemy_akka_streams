@@ -6,6 +6,7 @@ import akka.stream.{ActorAttributes, ActorMaterializer}
 import akka.stream.scaladsl.{RestartSource, Sink, Source}
 
 import scala.util.Random
+import scala.concurrent.duration._
 
 /**
   * Created by Tomohiro on 26 juillet 2019.
